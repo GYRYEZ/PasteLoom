@@ -1,0 +1,45 @@
+# Build and temporary files
+build/
+build-*/
+.build/
+AcceptanceBuild/
+DerivedData/
+*.xcresult/
+*.bundle
+
+# Output packages
+*.dmg
+*.pkg
+*.dSYM/
+
+# Local data and credentials
+*.sqlite
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.db-wal
+*.db-shm
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.mobileprovision
+*.provisionprofile
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode user state
+*.xcuserdata
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.swiftpm/configuration/
