@@ -2,6 +2,16 @@
 
 **Native macOS clipboard history with local search, Quick Paste, and screenshot annotation.**
 
+## 下载 PasteLoom
+
+**[下载 macOS 通用版 DMG（Apple Silicon 与 Intel）](https://github.com/GYRYEZ/PasteLoom/raw/refs/heads/main/PasteLoom-macOS-Universal.dmg)**
+
+DMG 也可在仓库根目录的 `PasteLoom-macOS-Universal.dmg` 文件中找到。此安装包不包含任何剪贴板历史或个人数据。该版本尚未进行 Developer ID 签名和 Apple 公证，首次打开时 macOS 可能显示安全提示。
+
+SHA-256：`3edbf87096e61aa4e92714a9430bbcf29c7535966e6681e35820d636cb683b78`
+
+
+
 ## 界面预览
 
 以下图片使用通用示例内容展示 PasteLoom 的主抽屉和菜单栏面板，不包含真实剪贴板历史、账号或本地路径。它们是脱敏展示图，不是当前运行应用的原始截图。
@@ -177,7 +187,9 @@ The application stores its database and image assets in the current user's Appli
 - [Implementation plan](PASTELOOM_NEXT_IMPLEMENTATION_PLAN.md)
 - [Product and behavior specifications](PASTELOOM_PRODUCT_SPEC.md), [UI specification](PASTELOOM_UI_SPEC.md), and [settings specification](PASTELOOM_SETTINGS_SPEC.md)
 
-The reports and specifications are development records. Some are historical snapshots and may describe earlier commits; consult the current status document for the latest verification scope.
+The reports and specifications are development records. Some are historical snapshots and may describe earlier commits; consult the current status document 
+
+for the latest verification scope.
 
 ## Release status
 
